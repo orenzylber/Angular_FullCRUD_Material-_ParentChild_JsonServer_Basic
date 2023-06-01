@@ -1,0 +1,20 @@
+Hello
+<app-samp></app-samp>
+
+<h1>Products</h1>
+<div *ngFor="let clr of arClr">
+  <app-colors myColor={{clr}}></app-colors>
+</div>
+<br/><br/><br/><br/>
+<app-colors myColor={{arClr[0]}}></app-colors>
+<app-colors myColor={{arClr[1]}}></app-colors>
+<app-colors myColor={{arClr[2]}}></app-colors>
+<app-colors myColor={{arClr[3]}}></app-colors>
+<app-colors myColor={{arClr[4]}}></app-colors>
+<div *ngFor="let item of ar; let odd = odd;">
+  <app-prod [myProduct]="item" (saveProd)="updProd($event)"></app-prod>
+</div>
+title<input #todotitle >
+    userId<input #userId >
+    completed<input type="checkbox" #completed >
+    <button (click)="addTodo(todotitle.value,+userId.value,completed.checked)">new</button>
