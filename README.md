@@ -1,4 +1,4 @@
-# Angular, full CRUD, Material, Parent-Child, Json-server
+# Angular, Part* CRUD, Material, Parent-Child, Json-server
 ## if you choose to clone this templete follow these steps:
 open the first terminal:
 - git clone https://github.com/orenzylber/Angular_FullCRUD_Material-_ParentChild_JsonServer_Basic.git
